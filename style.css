@@ -1,0 +1,295 @@
+
+
+/* Bagian Judul */
+ .judul{
+    text-align: center;
+    padding-top: 60px;    
+}
+
+.judul h1{
+    color: yellow;
+    text-shadow: 2px 2px 4px #888888;
+}
+
+.judul h3{
+    color: rgb(240, 240, 240);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container-fluid {
+    background-image: url(https://i.ibb.co/BCQypCT/bg-1.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+/* navbar */
+.navbar a :hover{
+    color: rgb(250, 217, 31);
+}
+
+.navbar_home .logo{
+   margin-left: 20px;
+}
+
+.navbar Canvas{
+    position: absolute;
+    z-index: -1;
+}
+
+/* .navbar_home .link_navbar a{
+    padding-top: 20px;
+} */
+
+.navbar_home a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-top: 100px; */
+    
+}
+
+.navbar_home .dropdown-menu{
+    background-color: #000000;
+}
+
+/* Bagian home & profile */
+.home{
+   background-image: url(https://i.ibb.co/tMgThym/bg-2.jpg);
+   background-size: cover;
+}
+
+.text-home{
+    margin-top: 120px;
+}
+
+.text-home h2{
+    color: white;
+}
+
+.text-home h4{
+    color: yellow;
+    font-size: 35px;
+}
+
+.text-home p{
+    color: white;
+}
+
+.home img{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    height: 75%;
+}
+
+/* Bagian About */
+.about .container{
+    height: 400px;
+}
+.about h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about .row{
+    margin-top: 40px;
+}
+
+.about .row p{
+    text-align: justify;
+}
+
+.about .row li{
+    list-style: none;
+}
+
+.about .row .col-md-5{
+    border: 2px solid rgb(250, 217, 31);
+    border-radius: 10px;
+}
+
+.about .row .col-md-5 p{
+    margin-top: 20px;
+}
+
+
+
+/* bagian Study */
+.study Canvas{
+    position: absolute;
+    z-index: -1;
+}
+
+.study h2{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.study b hr{
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    margin-left: 450px;
+}
+
+/* .study h2 .container{
+    border-radius: 10px;
+    border: 2px solid yellow;
+} */
+
+.study .row{
+    margin-left: 100px;
+}
+
+/* gallery */
+.gallery h2 {
+    text-align: center;
+}
+.gallery h5 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(250, 217, 31);
+}
+
+.gallery .card{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,1);
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.gallery img{
+    margin-top: 10px;
+    width: 100%;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.gallery p{
+    text-align: center;
+}
+
+
+/* Bagian project*/
+.project h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.project h5{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(250, 217, 31);
+}
+
+.project .card{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,1);
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.project img{
+    margin-top: 10px;
+    width: 100%;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+.project p{
+    text-align: center;
+}
+
+
+/* bagian skill */
+
+.skill h3{
+    text-align: center;
+}
+.skill h4{
+    text-align: center;
+}
+
+.skill h5{
+margin-top: 25px;
+}
+
+.skill .progress{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+/* bagian contact */
+.contact form{
+    display: block;
+    border: 1px solid yellow !important;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 10px;
+    
+}
+
+.form-custom {
+    border: 1px solid yellow !important;
+}
+
+.btn{
+    margin: 20px;
+    background-color: rgb(250, 217, 31);
+    color: white !important;
+}
+
+btn:hover {
+    background-color: rgb(255, 255, 134) !important;
+}
+
+.contact a{
+    color: white !important;
+}
+
+/* bagian footer */
+footer{
+    background-color: black;
+}
+footer p{
+    padding-top: 10px;
+    text-align: center;
+    color: white !important;
+    font-family: Helvetica;
+}
+
+
+
+footer .container {
+    margin-top: 20px;
+    border-radius:10px 10px  0px 0px ;
+}
+
+footer .baris_satu .row{
+    font-size: 30px;
+    text-align: center;
+}
+
+footer .baris_satu .col a{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+footer .baris_dua {
+    background-color: yellow;
+    margin-top: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
